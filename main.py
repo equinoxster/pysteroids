@@ -29,8 +29,8 @@ def main():
 
         updatable.update(dt)
 
-        for object in drawable:
-            object.draw(screen)
+        for game_object in drawable:
+            game_object.draw(screen)
 
         pygame.display.flip()
 
